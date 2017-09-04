@@ -1,6 +1,6 @@
-# drupal-ember
+# Ember powered by Drupal 8
 
-A Ember website to pull contents from a Drupal database and display contents, categories and author profiles. Backend is hosted in Pantheon: http://live-ember-editor.pantheonsite.io.
+A Ember website to pull contents from a Drupal 8 database and display contents, categories and author profiles. Backend is hosted in Pantheon: http://live-ember-editor.pantheonsite.io.
 
 ## Prerequisites
 
