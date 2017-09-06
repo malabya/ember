@@ -1,0 +1,14 @@
+.site--navigation {
+  .menu-item {
+    a {
+      padding: 1rem;
+      font-weight: $bold;
+    }
+
+    &:last-child {
+      a {
+        padding-right: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+header {
+  .page-top {
+    background: $black;
+    color: $white;
+    font-size: 80%;
+
+    .page-top-link {
+      margin-left: 0.5rem;
+      opacity: 0.8;
+    }
+  }
+
+  #bar {
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border: 5px solid transparent;
+    border-image: linear-gradient(to right,#bd3a3c 10%,#446a9b 25%,#c78215 30%,#5a8451 40%,#317a9c 50%,#2e789b 60%,#605573 70%,#9f3517 80%,#00368d 90%);
+    border-image-slice: 1;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+  }
+}

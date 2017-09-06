@@ -1,3 +1,11 @@
 @import 'settings';
 @import 'foundation-sites/foundation';
 @include foundation-everything;
+@import 'partials/variables';
+@import 'partials/mixins';
+@import 'partials/typography';
+@import 'partials/utils';
+@import 'partials/components';
+@import 'partials/design';
+@import 'partials/navigation';
+@import 'partials/header';
