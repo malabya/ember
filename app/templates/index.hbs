@@ -1,1 +1,16 @@
-Site content
+{{#each model as |article|}}
+  <article class='article grid-container'>
+    <div class="grid-x grid-margin-x">
+      <div class="cell large-3 medium-3 small-4">
+        <img src='{{article.image}}' class='media'>
+      </div>
+      <div class="cell large-9 medium-9 small-8">
+        <h4>{{article.title}}</h4>
+          <div class='created'>{{article.created}}</div>
+          <p>{{article.summary}}</p>
+          <div class='category'>{{article.category.name}}</div>
+          <a href='/user/{{article.author.userId}}/'><span>{{article.author.name}}</span></a>
+      </div>
+    </div>
+  </article>
+{{/each}}
